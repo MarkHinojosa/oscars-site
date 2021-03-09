@@ -13,22 +13,48 @@ export default function Home() {
         >
             <div
                 style={{
-                    borderColor: "red",
-                    borderWidth: 5,
-                    height: 10,
-                    width: 10,
+                    height: "30%",
+                    width: "100%",
+                    backgroundColor: "green",
+                    flex: 1,
+                    display: "flex",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    // alignContent: "center",
+                    // flexFlow: "column",
                 }}
             >
-                <text
+                <div
                     style={{
-                        alignContent: "center",
+                        backgroundColor: "red",
+                        width: "30%",
+                        height: "100%",
+                        display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        textAlign: "center",
-                        color: "green",
                     }}
                 >
-                    Homes
+                    {/* <div
+                        style={{
+                            backgroundColor: "purple",
+                            height: 10,
+                            width: 10,
+                        }}
+                    ></div> */}
+                    <h2
+                        style={{
+                            textAlign: "center",
+                            fontSize: 28,
+                            fontWeight: "bold",
+                            fontFamily: "fantasy",
+                        }}
+                    >
+                        HHIT
+                    </h2>
+                </div>
+                <text style={{ fontFamily: "cursive", fontSize: 22 }}>
+                    Hispanic Healthcare Initiative of Texas
                 </text>
             </div>
         </div>
