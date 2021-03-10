@@ -103,14 +103,25 @@ export default function Home() {
             </div>
             <div
                 style={{
+                    height: "9%",
                     width: "100%",
-                    backgroundColor: "yellow",
+                    backgroundColor: "#071F4E",
                     flex: 1,
                     display: "flex",
                     justifyContent: "center",
+                    alignItems: "center",
+                    flexDirection: "column",
                 }}
             >
-                <text style={{ color: "green" }}>Footer</text>
+                <h4 style={{ color: "white", padding: 0, margin: 0 }}>
+                    Alliviating Healthcare Disparities Together
+                </h4>
+                <text style={{ color: "white", textAlign: "center" }}>
+                    An effective consultation is a vital part of engaging with
+                    individuals, organizations, and communities in healthcare
+                    system navigation process with the aim of improving
+                    healthcare standards for all stakeholders.
+                </text>
             </div>
         </div>
     );
